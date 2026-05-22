@@ -27,6 +27,3 @@ Utilisation de la table 'orders' pour analyser la perde d'utilisateurs de chaque
 - COUNTIF(delivered_at IS NOT NULL) --> idem pour les commandes livréesAS commandes_livrees
 - COUNTIF(status = 'Complete') --> nombre de commandes complètes
   
-  
-## Visualisation
-https://colab.research.google.com/drive/1vNsiBe9P5_sPGJUhUvz_utnTdH2MQICZ#scrollTo=aqupfrYE2a7C
