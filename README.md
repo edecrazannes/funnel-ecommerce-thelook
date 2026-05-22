@@ -29,4 +29,4 @@ Utilisation de la table 'orders' pour analyser la perde d'utilisateurs de chaque
   
   
 ## Visualisation
-![Funnel de conversion](funnel_2023.png)
+https://colab.research.google.com/drive/1vNsiBe9P5_sPGJUhUvz_utnTdH2MQICZ#scrollTo=aqupfrYE2a7C
