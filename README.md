@@ -20,10 +20,12 @@ des recommandations actionnables.
 3. Analyse des catégories de produit avec un fort taux de retour
 
 ## Méthodologie
-Utilisation de la table 'orders' pour analyser la perde d'utilisateurs de chaque étape et calcul des métriques suivantes:
+Utilisation de la table 'orders' pour analyser la perte d'utilisateurs de chaque étape et calcul des métriques suivantes:
 - COUNT(DISTINCT user_id) --> nombre d'acheteurs uniques (DISTINCT car un utilisateur peut faire plusieurs commandes)
 - COUNT(order_id) -->  nombre de commandes
 - COUNTIF(shipped_at IS NOT NULL) --> nombre de commandes en cours d'expédition (IS NOT NULL pour supprimer les lignes vides donc actuellement pas en expédition)
 - COUNTIF(delivered_at IS NOT NULL) --> idem pour les commandes livréesAS commandes_livrees
 - COUNTIF(status = 'Complete') --> nombre de commandes complètes
   
+## Visualisation
+![Funnel de conversion 2023](funnel_2023.png)
